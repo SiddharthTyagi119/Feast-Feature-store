@@ -20,9 +20,12 @@ training dataset or online prediction.
 # Feast Init
 It will create a feature repo directory.  And it will have data, a feature_store.yaml file, and a Feature definition.py file.
 Data- Inside data, we can keep our data. 
+
 Feature definition.py - Set of features/columns out of the dataset which we want to store inside the feast store repo
+
 Feature_store.yaml - It contains some metadata of the feature mentioned in feature_defition and info regarding the project.
-It contains a demo setup configuring where data sources are
+It contains a demo setup configuring where data sources are and configurations to set up the feature store. It setup the metadata and infrastructure of incoming data sources.
+Here registry means to store the metadata of the data source
 Command - !feast init feature_repo
 
 # Feast Apply
